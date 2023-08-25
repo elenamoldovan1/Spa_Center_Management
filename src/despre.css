@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Kaushan+Script&family=Unbounded:wght@700&family=Water+Brush&display=swap");
+
+#tip1 .description {
+  width: 400px;
+  height: 425px;
+  position: relative;
+  background-color: rgba(8, 61, 119, 0.5);
+  transform: translateY(0);
+  border-radius: 15px;
+  transition: all 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tip1 .member {
+  cursor: pointer;
+  transition: all 1s;
+}
+
+#tip1 .member:hover {
+  transform: scale(1.01);
+}
+
+#tip1 .member:hover .description {
+  transform: translateY(-100%);
+}
+
+#tip1 .description h1 {
+  color: #fff;
+  font-family: "Handlee";
+}
+
+#tip1 .description p {
+  color: #fff;
+  font-family: "Handlee";
+  text-align: justify;
+  padding: 0 15px;
+}

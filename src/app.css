@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Unbounded:wght@700&family=Water+Brush&display=swap");
+
+.active {
+  color: white;
+  padding: 10px;
+  font-family: "unbounded";
+}
+.active:hover {
+  color: yellowgreen;
+}
+
+.inactive {
+  color: #b3952b;
+  padding: 10px;
+  font-family: "unbounded";
+}
+.inactive:hover {
+  color: yellowgreen;
+}
+.title {
+  color: #eb9c1a;
+  font-family: "Kaushan Script";
+  font-size: 55px;
+}
+
+.hr {
+  color: #bf7d0f;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #ffafa2;
+  color: #ffafa2;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-left: 335px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.button1 {
+  background-color: transparent;
+  border: 2px solid #ffafa2;
+  color: #ffafa2;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.titles {
+  color: white;
+  font-family: "unbounded", serif;
+}
+
+.tabel {
+  color: white;
+  margin: 30px auto auto 0;
+  font-family: "Handlee";
+  font-size: 25px;
+}
+
+.listuta {
+  color: white;
+  font-family: "unbounded", serif;
+}
+.Navbar {
+  color: white;
+}
+
+.textT {
+  font-family: "Water Brush";
+  font-size: 40px;
+  color: white;
+}
+
+.model-title {
+  text-align: center;
+  margin: 10px auto auto 0;
+  font-size: 50px;
+  color: #eb9c1a;
+  font-family: "Kaushan Script";
+}
+
+.divider {
+  width: 100px;
+  height: 1px;
+  background-color: #bf7d0f;
+  position: relative;
+  margin: 20px auto 15px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member {
+  margin: 15px 15px;
+  border-radius: 10px;
+  padding: 0;
+  height: 300px;
+  overflow: hidden;
+}
+
+.member:hover {
+  transform: scale(1.01);
+}
